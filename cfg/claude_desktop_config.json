@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "C:\\Users\\uslum\\.local\\bin\\uv.EXE",
+      "args": [
+        "--directory",
+        "C:/Users/uslum/Desktop/mcp/weather",
+        "run",
+        "weather.py"
+      ]
+    },
+    "Stock Price Server": {
+      "command": "C:\\Users\\uslum\\.local\\bin\\uv.EXE",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+		"--with",
+		"yfinance",
+        "mcp",
+        "run",
+        "C:/Users/uslum/Desktop/mcp/stock_price/stock_price_server.py"
+      ]
+    },
+    "Stock Price Server-2": {
+        "command": "C:\\Users\\uslum\\.local\\bin\\uv.EXE",
+        "args": [
+            "--directory",
+            "C:/Users/uslum/Desktop/mcp/stock_price2",
+            "run",
+            "stock_price_server.py"
+        ]
+    }    
+  }
+}
