@@ -1,0 +1,10 @@
+[project]
+name = "stock-price2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.9.2",
+    "yfinance>=0.2.61",
+]
