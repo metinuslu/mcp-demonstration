@@ -1,0 +1,79 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "C:\\Users\\uslum\\.local\\bin\\uv.EXE",
+      "args": [
+        "--directory",
+        "C:/Users/uslum/Desktop/mcp/weather",
+        "run",
+        "weather.py"
+      ]
+    },
+    "Stock Price Server": {
+      "command": "C:\\Users\\uslum\\.local\\bin\\uv.EXE",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with",
+        "yfinance",
+        "mcp",
+        "run",
+        "C:/Users/uslum/Desktop/mcp/stock_price/stock_price_server.py"
+      ]
+    },
+    "Stock Price Server-2": {
+      "command": "C:\\Users\\uslum\\.local\\bin\\uv.EXE",
+      "args": [
+        "--directory",
+        "C:/Users/uslum/Desktop/mcp/stock_price2",
+        "run",
+        "stock_price_server.py"
+      ]
+    },
+    "server-sequential-thinking": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/server-sequential-thinking",
+        "--key",
+        "624b542c-2bab-409d-b626-ffcd3a579e07"
+      ]
+    },
+    "File Counter": {
+      "command": "C:\\Users\\uslum\\.local\\bin\\uv.EXE",
+      "args": [
+        "--directory",
+        "C:/Users/uslum/Desktop/mcp/examples",
+        "run",
+        "file_counter.py"
+      ]
+    },
+    "PDF Reader": {
+      "command": "C:\\Users\\uslum\\.local\\bin\\uv.EXE",
+      "args": [
+        "--directory",
+        "C:/Users/uslum/Desktop/mcp/examples",
+        "run",
+        "pdf_reader.py"
+      ]
+    },
+    "desktop-commander": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@wonderwhy-er/desktop-commander",
+        "--key",
+        "624b542c-2bab-409d-b626-ffcd3a579e07"
+      ]
+    }
+  }
+}
