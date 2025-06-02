@@ -1,4 +1,4 @@
-# Weather
+# MCP Examples
 
 ## Commands
 - Create a new directory for our project  
@@ -13,13 +13,13 @@ uv venv
 uv add mcp[cli] PyPDF2
 
 - Create our server file  
-touch `FILENAME.py`  
+touch `FILENAME.py`  [file_counter.py, pdf_reader.py]  
 
 ## MCP Inspection  
-mcp dev `FILENAME.py`  
+mcp dev `FILENAME.py` [file_counter.py, pdf_reader.py]  
 
 ## Running the server
-uv run `FILENAME.py`  
+uv run `FILENAME.py`  [file_counter.py, pdf_reader.py]  
 
 ## Prompts
     Prompt-1: Count the number of files on the desktop?
