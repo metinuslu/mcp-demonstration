@@ -15,13 +15,13 @@ uv add mcp[cli] httpx
 touch weather.py
 
 # MCP Inspection
-mcp dev stock_price_server.py  
+mcp dev weather.py  
 
 # Running the server
 uv run weather.py
 
 ## Prompts
-    Prompt-1: What’s the weather in Sacramento?
+    Prompt-1: What’s the weather in Sacramento and DC?
     Prompt-2: What are the active weather alerts in Texas?
 
 ## What’s happening under the hood
