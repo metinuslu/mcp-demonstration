@@ -25,6 +25,7 @@ Library: https://pypi.org/project/mcp/
 
 
 ## Configuration
+
 Claude Desktop (for Windows)  
 > **Path:** %APPDATA%/Claude/  
 > **Setting Path:** %APPDATA%/Claude/claude_desktop_config.json  
@@ -39,16 +40,15 @@ Cursor (for Windows)
 
 ## Examples
 > https://smithery.ai/  
-> https://smithery.ai/server/@wonderwhy-er/desktop-commander  
-> https://desktopcommander.app/  
+> https://smithery.ai/server/@wonderwhy-er/desktop-commander & https://desktopcommander.app/  
 
 
 ## References
 > Introducing the Model Context Protocol - https://www.anthropic.com/news/model-context-protocol  
 > Model Context Protocol (MCP) - https://docs.anthropic.com/en/docs/agents-and-tools/mcp  
 > MCP Specification - https://modelcontextprotocol.io/specification/2025-03-26  
+> Microsoft MCP for Beginner - https://github.com/microsoft/mcp-for-beginners  
+> Model Context Protocol (MCP) an overview - https://www.philschmid.de/mcp-introduction  
 > EP154: What is MCP? https://blog.bytebytego.com/p/ep154-what-is-mcp  
 > EP165: AI Agent versus MCP - https://blog.bytebytego.com/p/ep165-ai-agent-versus-mcp  
 > EP163: 12 MCP Servers You Can Use in 2025 - https://blog.bytebytego.com/p/ep163-12-mcp-servers-you-can-use  
-> https://www.philschmid.de/mcp-introduction  
-> https://github.com/microsoft/mcp-for-beginners  
