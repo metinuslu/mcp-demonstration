@@ -26,17 +26,27 @@ Library: https://pypi.org/project/mcp/
 
 ## Configuration
 
-Claude Desktop (for Windows)  
+**Claude Desktop (for Windows)**  
 > **Path:** %APPDATA%/Claude/  
 > **Setting Path:** %APPDATA%/Claude/claude_desktop_config.json  
 > **Logs Path:** %APPDATA%/Claude/logs  
 > Please browse to `cfg/claude_desktop_config.json` file  
 
-Cursor (for Windows)  
+**Cursor (for Windows)**  
+**Path:** .cursor/
 > Ctrl + Shift + P  
 > Open MCP Settings  
 > Add new global MCP server  
 > Please browse to `cfg/mcp.json` file  
+
+
+**Windsurf (for Windows)**  
+> **Path:** .codeium/
+> Ctrl + Shift + P  
+> Open MCP Settings  
+> Add new global MCP server  
+> Please browse to `cfg/mcp_config.json` file  
+
 
 ## Examples
 > https://smithery.ai/  
