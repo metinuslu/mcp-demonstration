@@ -29,6 +29,18 @@ Claude Desktop (for Windows)
 > **Path:** %APPDATA%/Claude/  
 > **Setting Path:** %APPDATA%/Claude/claude_desktop_config.json  
 > **Logs Path:** %APPDATA%/Claude/logs  
+> Please browse to `cfg/claude_desktop_config.json` file  
+
+Cursor (for Windows)  
+> Ctrl + Shift + P  
+> Open MCP Settings  
+> Add new global MCP server  
+> Please browse to `cfg/mcp.json` file  
+
+## Examples
+> https://smithery.ai/  
+> https://smithery.ai/server/@wonderwhy-er/desktop-commander  
+> https://desktopcommander.app/  
 
 
 ## References
@@ -40,5 +52,3 @@ Claude Desktop (for Windows)
 > EP163: 12 MCP Servers You Can Use in 2025 - https://blog.bytebytego.com/p/ep163-12-mcp-servers-you-can-use  
 > https://www.philschmid.de/mcp-introduction  
 > https://github.com/microsoft/mcp-for-beginners  
-> https://github.com/microsoft/mcp-for-beginners/tree/main/00-Introduction  
-> https://github.com/microsoft/mcp-for-beginners/tree/main/01-CoreConcepts  
