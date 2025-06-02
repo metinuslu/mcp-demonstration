@@ -5,7 +5,10 @@ import PyPDF2 # For PDF text extraction
 mcp = FastMCP("SmartContext")
 
 # Hardcoded path to your leave policy PDF (edit this to your file’s location)
-LEAVE_POLICY_PDF = "C:/Users/uslum/Desktop/mcp/examples/pdf/NimbusTech_Leave_Policy_2025.pdf"
+#LEAVE_POLICY_PDF = "C:/Users/uslum/Desktop/mcp/examples/pdf/NimbusTech_Leave_Policy_2025.pdf"
+os.working_dir = os.path.dirname(os.path.abspath(__file__))
+LEAVE_POLICY_PDF = os.path.join(os.working_dir, "pdf/NimbusTech_Leave_Policy_2025.pdf")
+# LEAVE_POLICY_PDF = os.path.join(os.working_dir, "pdf/Linux-Dagitimlarinin-Anatomisi.pdf")
 
 @mcp.tool()
 def fetch_context(query: str) -> str:
