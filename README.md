@@ -33,7 +33,7 @@ Library: https://pypi.org/project/mcp/
 > Please browse to `cfg/claude_desktop_config.json` file  
 
 **Cursor (for Windows)**  
-**Path:** .cursor/
+> **Path:** .cursor/  
 > Ctrl + Shift + P  
 > Open MCP Settings  
 > Add new global MCP server  
@@ -41,7 +41,7 @@ Library: https://pypi.org/project/mcp/
 
 
 **Windsurf (for Windows)**  
-> **Path:** .codeium/
+> **Path:** .codeium/  
 > Ctrl + Shift + P  
 > Open MCP Settings  
 > Add new global MCP server  
