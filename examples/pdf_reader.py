@@ -2,7 +2,7 @@ from mcp.server.fastmcp import FastMCP
 import os
 import PyPDF2 # For PDF text extraction
 
-mcp = FastMCP("SmartContext")
+mcp = FastMCP("Smart Context")
 
 # Hardcoded path to your leave policy PDF (edit this to your file’s location)
 #LEAVE_POLICY_PDF = "C:/Users/uslum/Desktop/mcp/examples/pdf/NimbusTech_Leave_Policy_2025.pdf"

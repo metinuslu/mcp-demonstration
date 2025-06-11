@@ -2,7 +2,7 @@ from mcp.server.fastmcp import FastMCP
 import os
 
 # Create an MCP server named "FileCounter"
-mcp = FastMCP("FileCounter")
+mcp = FastMCP("File Counter")
 
 @mcp.tool()
 def count_desktop_files() -> str:
