@@ -1,4 +1,4 @@
-# Stock Price -2
+# Stock Price-2 MCP Server
 
 ## Installations
 
