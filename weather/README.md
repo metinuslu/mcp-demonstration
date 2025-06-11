@@ -1,4 +1,4 @@
-# Weather
+# Weather MCP Server
 
 ## Commands
 - Create a new directory for our project  
